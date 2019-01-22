@@ -1,0 +1,26 @@
+{
+  "name": "node-zeromq-kickstarter",
+  "version": "1.0.0",
+  "description": "Basic NodeJS network connections 4 learning",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonymedrano/node-zeromq-kickstarter.git"
+  },
+  "keywords": [],
+  "author": "Tony Medrano <info@tonymedrano.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonymedrano/node-zeromq-kickstarter/issues"
+  },
+  "homepage": "https://github.com/tonymedrano/node-zeromq-kickstarter#readme",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "electron": "^4.0.1",
+    "mocha": "2.4.5"
+  }
+}
