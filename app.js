@@ -11,14 +11,3 @@
 'use strict'
 
 const printer = require('./printer/printer')
-const message = require('././message')
-
-const p = printer.create("NODE CONSOLE")
-
-const msg = message.create();
-
-msg.on('event', () => {
-  p.print('an event occurred!')
-});
-
-msg.emit('event');
